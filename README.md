@@ -1,0 +1,2 @@
+# FireLang
+A programming language.
