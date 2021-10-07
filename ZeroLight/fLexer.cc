@@ -38,5 +38,23 @@ const string TNL[] = {
      * Left Shift         <<
      * Right Shift        >>
      */
-    "BNot", "BAnd", "BOr", "Lsh", "Rsh"
+    "BNot", "BAnd", "BOr", "Lsh", "Rsh",
+
+    // Key words:
+
+    // Basic Types & const Values:
+
+    // Integer, Character, Float(Decimal), Bool, Null
+    "integer", "char", "decimal", "bool", "null",
+    // Unsigned identifier
+    "unsigned",
+    // T(true) F(false)
+    "true", "false",
+
+    // Control stream:
+    
+    // Loop:
+    "for", "do", "until", "while",
+    // judge:
+    "if", "then", "else", "switch", "case", "default"
 };
