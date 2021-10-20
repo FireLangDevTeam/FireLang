@@ -9,8 +9,10 @@ A programming language.
 ```javascript
 import Basic.io;
 
+using io;
+
 function null main() {
-    io.WriteLine("Hello world!");
+    WriteLine("Hello world!");
 }
 ```
 
