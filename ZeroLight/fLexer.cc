@@ -75,7 +75,7 @@ const string TNL[] = {
     // Punctuations:
     /*
      * semicolon       ;
-     * colon           ;
+     * colon           :
      */
-    "semicol", "semi"
+    "semicol", "col"
 };
