@@ -19,6 +19,16 @@ const string TNL[] = {
      */
     "Add", "Sub", "Mul", "Div", "Mod", "Pow",
     "Inc", "Dec",
+    
+    /*
+     * Addition           +=
+     * Subtraction        -=
+     * Multiplication     *=
+     * Division           /=
+     * Modulus            %=
+     * Power              **=
+     */
+    "AddA", "SubA", "MulA", "DivA", "ModA", "PowA",
 
     // Base logical operators:
 
@@ -57,4 +67,15 @@ const string TNL[] = {
     "for", "do", "until", "while",
     // judge:
     "if", "then", "else", "switch", "case", "default"
+        
+    // Other
+    "import", "function", "using",
+    
+    
+    // Punctuations:
+    /*
+     * semicolon       ;
+     * colon           ;
+     */
+    "semicol", "semi"
 };
