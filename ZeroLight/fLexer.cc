@@ -50,7 +50,7 @@ const string TNL[] = {
      */
     "BNot", "BAnd", "BOr", "Lsh", "Rsh",
 
-    // Key words:
+    // Keywords:
 
     // Basic Types & const Values:
 
@@ -76,6 +76,14 @@ const string TNL[] = {
     /*
      * semicolon       ;
      * colon           :
+     * dot             .
+     * arrow          ->
+     * brackets       ()
+     * brackets       []
+     * brackets       {}
      */
-    "semicol", "col"
+
+    // m: middle, b: big
+    "semicol", "col", "dot", "arr", "l_bracket", "r_bracket",
+    "lm_bracket", "rm_bracket", "lb_bracket", "rb_backet"
 };
