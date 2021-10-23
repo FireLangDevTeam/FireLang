@@ -69,7 +69,7 @@ const string TNL[] = {
     "if", "then", "else", "switch", "case", "default"
         
     // Other
-    "import", "function", "using",
+    "import", "function", "using", "class", "",
     
     
     // Punctuations:
@@ -86,4 +86,21 @@ const string TNL[] = {
     // m: middle, b: big
     "semicol", "col", "dot", "arr", "l_bracket", "r_bracket",
     "lm_bracket", "rm_bracket", "lb_bracket", "rb_backet"
+};
+
+class Token {
+ public:
+  Token() = default;
+
+  Token(string name, string data) {
+    this->tok_name = name;
+    this->tok_data = data;
+  }
+
+  string tok_name; /**< The name of token. */
+  string tok_data; /**< The data of token. */
+};
+
+class Lexer {
+
 };
