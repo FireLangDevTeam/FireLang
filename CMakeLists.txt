@@ -3,4 +3,4 @@ project(FireLang)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(FireLang main.cpp)
+add_executable(FireLang main.cpp ZeroLight/fLexer.cc)
